@@ -150,10 +150,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="relative">
-      <h1 className="sr-only">
-        DBros — 8K 3D Interior Design, Architectural Visualization & Rendering Studio for Luxury
-        Real Estate Developers in the USA, UK, Canada and Australia
-      </h1>
       <Nav />
       <Hero />
       <StyleTransformer />
