@@ -7,6 +7,7 @@ import { EliteGallery } from "@/components/landing/EliteGallery";
 import { ROICalculator } from "@/components/landing/ROICalculator";
 import { WhyDBros } from "@/components/landing/WhyDBros";
 import { Pricing } from "@/components/landing/Pricing";
+import { BookingForm } from "@/components/landing/BookingForm";
 import { Footer } from "@/components/landing/Footer";
 
 const SITE_URL = "https://dbros.com";
@@ -157,6 +158,7 @@ function Index() {
       <ROICalculator />
       <WhyDBros />
       <Pricing />
+      <BookingForm />
       <Footer />
       <Toaster position="bottom-center" />
     </main>
