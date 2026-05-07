@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export function Footer() {
   return (
-    <footer id="contact" className="relative pt-28 md:pt-40 pb-12 bg-foreground text-background">
+    <footer className="relative pt-28 md:pt-40 pb-12 bg-foreground text-background">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
