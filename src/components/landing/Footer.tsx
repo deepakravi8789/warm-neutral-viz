@@ -37,13 +37,19 @@ export function Footer() {
           </div>
         </motion.div>
 
-        <div className="mt-24 pt-8 border-t border-background/15 flex flex-wrap items-center justify-between gap-4 text-xs text-background/60">
-          <div className="font-display text-lg text-background">DBros<span className="text-accent">.</span></div>
-          <div>© {new Date().getFullYear()} DBros Studio · 3D Interior Visualization</div>
-          <div className="flex gap-5">
-            <a href="#" className="hover:text-background">Instagram</a>
-            <a href="#" className="hover:text-background">LinkedIn</a>
-            <a href="#" className="hover:text-background">Behance</a>
+        <div className="mt-24 pt-8 border-t border-background/15">
+          <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-background/60">
+            <div className="font-display text-lg text-background">DBros<span className="text-accent">.</span></div>
+            <div>© {new Date().getFullYear()} DBros Studio · 3D Interior Visualization</div>
+            <div className="flex gap-5">
+              <a href="#" className="hover:text-background">Instagram</a>
+              <a href="#" className="hover:text-background">LinkedIn</a>
+              <a href="#" className="hover:text-background">Behance</a>
+            </div>
+          </div>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-5 text-xs text-background/40">
+            <a href="/privacy" className="hover:text-background/80 transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-background/80 transition-colors">Terms & Conditions</a>
           </div>
         </div>
       </div>
